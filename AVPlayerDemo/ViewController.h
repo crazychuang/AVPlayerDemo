@@ -10,4 +10,5 @@
 
 @interface ViewController : UIViewController
 
+- (IBAction)player:(id)sender;
 @end

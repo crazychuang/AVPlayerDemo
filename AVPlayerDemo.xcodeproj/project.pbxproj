@@ -19,6 +19,33 @@
 		C4090AF717CC5919005A7CE2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4090AF617CC5919005A7CE2 /* ViewController.m */; };
 		C4090AFA17CC5919005A7CE2 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4090AF817CC5919005A7CE2 /* ViewController_iPhone.xib */; };
 		C4090AFD17CC5919005A7CE2 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4090AFB17CC5919005A7CE2 /* ViewController_iPad.xib */; };
+		C4090B2217CC5962005A7CE2 /* airplay-display.png in Resources */ = {isa = PBXBuildFile; fileRef = C4090B0617CC5962005A7CE2 /* airplay-display.png */; };
+		C4090B2317CC5962005A7CE2 /* airplay-display@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4090B0717CC5962005A7CE2 /* airplay-display@2x.png */; };
+		C4090B2417CC5962005A7CE2 /* fullscreen-button.png in Resources */ = {isa = PBXBuildFile; fileRef = C4090B0817CC5962005A7CE2 /* fullscreen-button.png */; };
+		C4090B2517CC5962005A7CE2 /* fullscreen-button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4090B0917CC5962005A7CE2 /* fullscreen-button@2x.png */; };
+		C4090B2617CC5962005A7CE2 /* minimize-button.png in Resources */ = {isa = PBXBuildFile; fileRef = C4090B0A17CC5962005A7CE2 /* minimize-button.png */; };
+		C4090B2717CC5962005A7CE2 /* minimize-button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4090B0B17CC5962005A7CE2 /* minimize-button@2x.png */; };
+		C4090B2817CC5962005A7CE2 /* pause-button.png in Resources */ = {isa = PBXBuildFile; fileRef = C4090B0C17CC5962005A7CE2 /* pause-button.png */; };
+		C4090B2917CC5962005A7CE2 /* pause-button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4090B0D17CC5962005A7CE2 /* pause-button@2x.png */; };
+		C4090B2A17CC5962005A7CE2 /* play-button.png in Resources */ = {isa = PBXBuildFile; fileRef = C4090B0E17CC5962005A7CE2 /* play-button.png */; };
+		C4090B2B17CC5962005A7CE2 /* play-button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4090B0F17CC5962005A7CE2 /* play-button@2x.png */; };
+		C4090B2C17CC5962005A7CE2 /* share-button.png in Resources */ = {isa = PBXBuildFile; fileRef = C4090B1017CC5962005A7CE2 /* share-button.png */; };
+		C4090B2D17CC5962005A7CE2 /* share-button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4090B1117CC5962005A7CE2 /* share-button@2x.png */; };
+		C4090B2E17CC5962005A7CE2 /* transparentBar.png in Resources */ = {isa = PBXBuildFile; fileRef = C4090B1217CC5962005A7CE2 /* transparentBar.png */; };
+		C4090B2F17CC5962005A7CE2 /* transparentBar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4090B1317CC5962005A7CE2 /* transparentBar@2x.png */; };
+		C4090B3017CC5962005A7CE2 /* AirplayActiveView.m in Sources */ = {isa = PBXBuildFile; fileRef = C4090B1617CC5962005A7CE2 /* AirplayActiveView.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		C4090B3117CC5962005A7CE2 /* FullScreenView.m in Sources */ = {isa = PBXBuildFile; fileRef = C4090B1817CC5962005A7CE2 /* FullScreenView.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		C4090B3217CC5962005A7CE2 /* FullScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4090B1A17CC5962005A7CE2 /* FullScreenViewController.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		C4090B3317CC5962005A7CE2 /* VideoPlayerKit.m in Sources */ = {isa = PBXBuildFile; fileRef = C4090B1D17CC5962005A7CE2 /* VideoPlayerKit.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		C4090B3417CC5962005A7CE2 /* VideoPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = C4090B1F17CC5962005A7CE2 /* VideoPlayerView.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		C4090B3517CC5962005A7CE2 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = C4090B2017CC5962005A7CE2 /* README.md */; };
+		C4090B3617CC5962005A7CE2 /* VideoPlayerKit.podspec in Resources */ = {isa = PBXBuildFile; fileRef = C4090B2117CC5962005A7CE2 /* VideoPlayerKit.podspec */; };
+		C4090B3817CC5A9E005A7CE2 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4090B3717CC5A9E005A7CE2 /* MediaPlayer.framework */; };
+		C4090B3A17CC5AB7005A7CE2 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4090B3917CC5AB7005A7CE2 /* AVFoundation.framework */; };
+		C4090B3C17CC5AC0005A7CE2 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4090B3B17CC5AC0005A7CE2 /* CoreMedia.framework */; };
+		C4090B3E17CC5AC8005A7CE2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4090B3D17CC5AC8005A7CE2 /* QuartzCore.framework */; };
+		C4090B4217CC5B72005A7CE2 /* playerPage.m in Sources */ = {isa = PBXBuildFile; fileRef = C4090B4017CC5B70005A7CE2 /* playerPage.m */; };
+		C4090B4317CC5B72005A7CE2 /* playerPage.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4090B4117CC5B71005A7CE2 /* playerPage.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +66,40 @@
 		C4090AF617CC5919005A7CE2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C4090AF917CC5919005A7CE2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
 		C4090AFC17CC5919005A7CE2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		C4090B0617CC5962005A7CE2 /* airplay-display.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "airplay-display.png"; sourceTree = "<group>"; };
+		C4090B0717CC5962005A7CE2 /* airplay-display@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "airplay-display@2x.png"; sourceTree = "<group>"; };
+		C4090B0817CC5962005A7CE2 /* fullscreen-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fullscreen-button.png"; sourceTree = "<group>"; };
+		C4090B0917CC5962005A7CE2 /* fullscreen-button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fullscreen-button@2x.png"; sourceTree = "<group>"; };
+		C4090B0A17CC5962005A7CE2 /* minimize-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "minimize-button.png"; sourceTree = "<group>"; };
+		C4090B0B17CC5962005A7CE2 /* minimize-button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "minimize-button@2x.png"; sourceTree = "<group>"; };
+		C4090B0C17CC5962005A7CE2 /* pause-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pause-button.png"; sourceTree = "<group>"; };
+		C4090B0D17CC5962005A7CE2 /* pause-button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pause-button@2x.png"; sourceTree = "<group>"; };
+		C4090B0E17CC5962005A7CE2 /* play-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play-button.png"; sourceTree = "<group>"; };
+		C4090B0F17CC5962005A7CE2 /* play-button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play-button@2x.png"; sourceTree = "<group>"; };
+		C4090B1017CC5962005A7CE2 /* share-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share-button.png"; sourceTree = "<group>"; };
+		C4090B1117CC5962005A7CE2 /* share-button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share-button@2x.png"; sourceTree = "<group>"; };
+		C4090B1217CC5962005A7CE2 /* transparentBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = transparentBar.png; sourceTree = "<group>"; };
+		C4090B1317CC5962005A7CE2 /* transparentBar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "transparentBar@2x.png"; sourceTree = "<group>"; };
+		C4090B1517CC5962005A7CE2 /* AirplayActiveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AirplayActiveView.h; sourceTree = "<group>"; };
+		C4090B1617CC5962005A7CE2 /* AirplayActiveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AirplayActiveView.m; sourceTree = "<group>"; };
+		C4090B1717CC5962005A7CE2 /* FullScreenView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FullScreenView.h; sourceTree = "<group>"; };
+		C4090B1817CC5962005A7CE2 /* FullScreenView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FullScreenView.m; sourceTree = "<group>"; };
+		C4090B1917CC5962005A7CE2 /* FullScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FullScreenViewController.h; sourceTree = "<group>"; };
+		C4090B1A17CC5962005A7CE2 /* FullScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FullScreenViewController.m; sourceTree = "<group>"; };
+		C4090B1B17CC5962005A7CE2 /* VideoPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoPlayer.h; sourceTree = "<group>"; };
+		C4090B1C17CC5962005A7CE2 /* VideoPlayerKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoPlayerKit.h; sourceTree = "<group>"; };
+		C4090B1D17CC5962005A7CE2 /* VideoPlayerKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoPlayerKit.m; sourceTree = "<group>"; };
+		C4090B1E17CC5962005A7CE2 /* VideoPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoPlayerView.h; sourceTree = "<group>"; };
+		C4090B1F17CC5962005A7CE2 /* VideoPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoPlayerView.m; sourceTree = "<group>"; };
+		C4090B2017CC5962005A7CE2 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		C4090B2117CC5962005A7CE2 /* VideoPlayerKit.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = VideoPlayerKit.podspec; sourceTree = "<group>"; };
+		C4090B3717CC5A9E005A7CE2 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		C4090B3917CC5AB7005A7CE2 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		C4090B3B17CC5AC0005A7CE2 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		C4090B3D17CC5AC8005A7CE2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C4090B3F17CC5B70005A7CE2 /* playerPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = playerPage.h; sourceTree = "<group>"; };
+		C4090B4017CC5B70005A7CE2 /* playerPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = playerPage.m; sourceTree = "<group>"; };
+		C4090B4117CC5B71005A7CE2 /* playerPage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = playerPage.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +107,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4090B3E17CC5AC8005A7CE2 /* QuartzCore.framework in Frameworks */,
+				C4090B3C17CC5AC0005A7CE2 /* CoreMedia.framework in Frameworks */,
+				C4090B3A17CC5AB7005A7CE2 /* AVFoundation.framework in Frameworks */,
+				C4090B3817CC5A9E005A7CE2 /* MediaPlayer.framework in Frameworks */,
 				C4090ADE17CC5919005A7CE2 /* UIKit.framework in Frameworks */,
 				C4090AE017CC5919005A7CE2 /* Foundation.framework in Frameworks */,
 				C4090AE217CC5919005A7CE2 /* CoreGraphics.framework in Frameworks */,
@@ -58,6 +123,10 @@
 		C4090AD117CC5919005A7CE2 = {
 			isa = PBXGroup;
 			children = (
+				C4090B3D17CC5AC8005A7CE2 /* QuartzCore.framework */,
+				C4090B3B17CC5AC0005A7CE2 /* CoreMedia.framework */,
+				C4090B3917CC5AB7005A7CE2 /* AVFoundation.framework */,
+				C4090B3717CC5A9E005A7CE2 /* MediaPlayer.framework */,
 				C4090AE317CC5919005A7CE2 /* AVPlayerDemo */,
 				C4090ADC17CC5919005A7CE2 /* Frameworks */,
 				C4090ADB17CC5919005A7CE2 /* Products */,
@@ -85,6 +154,7 @@
 		C4090AE317CC5919005A7CE2 /* AVPlayerDemo */ = {
 			isa = PBXGroup;
 			children = (
+				C4090B0317CC594C005A7CE2 /* libs */,
 				C4090AEC17CC5919005A7CE2 /* AppDelegate.h */,
 				C4090AED17CC5919005A7CE2 /* AppDelegate.m */,
 				C4090AF517CC5919005A7CE2 /* ViewController.h */,
@@ -92,6 +162,9 @@
 				C4090AF817CC5919005A7CE2 /* ViewController_iPhone.xib */,
 				C4090AFB17CC5919005A7CE2 /* ViewController_iPad.xib */,
 				C4090AE417CC5919005A7CE2 /* Supporting Files */,
+				C4090B3F17CC5B70005A7CE2 /* playerPage.h */,
+				C4090B4017CC5B70005A7CE2 /* playerPage.m */,
+				C4090B4117CC5B71005A7CE2 /* playerPage.xib */,
 			);
 			path = AVPlayerDemo;
 			sourceTree = "<group>";
@@ -108,6 +181,64 @@
 				C4090AF317CC5919005A7CE2 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C4090B0317CC594C005A7CE2 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				C4090B0417CC5962005A7CE2 /* VideoPlayerKit-master */,
+			);
+			path = libs;
+			sourceTree = "<group>";
+		};
+		C4090B0417CC5962005A7CE2 /* VideoPlayerKit-master */ = {
+			isa = PBXGroup;
+			children = (
+				C4090B0517CC5962005A7CE2 /* Assets */,
+				C4090B1417CC5962005A7CE2 /* Code */,
+				C4090B2017CC5962005A7CE2 /* README.md */,
+				C4090B2117CC5962005A7CE2 /* VideoPlayerKit.podspec */,
+			);
+			path = "VideoPlayerKit-master";
+			sourceTree = "<group>";
+		};
+		C4090B0517CC5962005A7CE2 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				C4090B0617CC5962005A7CE2 /* airplay-display.png */,
+				C4090B0717CC5962005A7CE2 /* airplay-display@2x.png */,
+				C4090B0817CC5962005A7CE2 /* fullscreen-button.png */,
+				C4090B0917CC5962005A7CE2 /* fullscreen-button@2x.png */,
+				C4090B0A17CC5962005A7CE2 /* minimize-button.png */,
+				C4090B0B17CC5962005A7CE2 /* minimize-button@2x.png */,
+				C4090B0C17CC5962005A7CE2 /* pause-button.png */,
+				C4090B0D17CC5962005A7CE2 /* pause-button@2x.png */,
+				C4090B0E17CC5962005A7CE2 /* play-button.png */,
+				C4090B0F17CC5962005A7CE2 /* play-button@2x.png */,
+				C4090B1017CC5962005A7CE2 /* share-button.png */,
+				C4090B1117CC5962005A7CE2 /* share-button@2x.png */,
+				C4090B1217CC5962005A7CE2 /* transparentBar.png */,
+				C4090B1317CC5962005A7CE2 /* transparentBar@2x.png */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		C4090B1417CC5962005A7CE2 /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				C4090B1517CC5962005A7CE2 /* AirplayActiveView.h */,
+				C4090B1617CC5962005A7CE2 /* AirplayActiveView.m */,
+				C4090B1717CC5962005A7CE2 /* FullScreenView.h */,
+				C4090B1817CC5962005A7CE2 /* FullScreenView.m */,
+				C4090B1917CC5962005A7CE2 /* FullScreenViewController.h */,
+				C4090B1A17CC5962005A7CE2 /* FullScreenViewController.m */,
+				C4090B1B17CC5962005A7CE2 /* VideoPlayer.h */,
+				C4090B1C17CC5962005A7CE2 /* VideoPlayerKit.h */,
+				C4090B1D17CC5962005A7CE2 /* VideoPlayerKit.m */,
+				C4090B1E17CC5962005A7CE2 /* VideoPlayerView.h */,
+				C4090B1F17CC5962005A7CE2 /* VideoPlayerView.m */,
+			);
+			path = Code;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,6 +298,23 @@
 				C4090AF417CC5919005A7CE2 /* Default-568h@2x.png in Resources */,
 				C4090AFA17CC5919005A7CE2 /* ViewController_iPhone.xib in Resources */,
 				C4090AFD17CC5919005A7CE2 /* ViewController_iPad.xib in Resources */,
+				C4090B2217CC5962005A7CE2 /* airplay-display.png in Resources */,
+				C4090B2317CC5962005A7CE2 /* airplay-display@2x.png in Resources */,
+				C4090B2417CC5962005A7CE2 /* fullscreen-button.png in Resources */,
+				C4090B2517CC5962005A7CE2 /* fullscreen-button@2x.png in Resources */,
+				C4090B2617CC5962005A7CE2 /* minimize-button.png in Resources */,
+				C4090B2717CC5962005A7CE2 /* minimize-button@2x.png in Resources */,
+				C4090B2817CC5962005A7CE2 /* pause-button.png in Resources */,
+				C4090B2917CC5962005A7CE2 /* pause-button@2x.png in Resources */,
+				C4090B2A17CC5962005A7CE2 /* play-button.png in Resources */,
+				C4090B2B17CC5962005A7CE2 /* play-button@2x.png in Resources */,
+				C4090B2C17CC5962005A7CE2 /* share-button.png in Resources */,
+				C4090B2D17CC5962005A7CE2 /* share-button@2x.png in Resources */,
+				C4090B2E17CC5962005A7CE2 /* transparentBar.png in Resources */,
+				C4090B2F17CC5962005A7CE2 /* transparentBar@2x.png in Resources */,
+				C4090B3517CC5962005A7CE2 /* README.md in Resources */,
+				C4090B3617CC5962005A7CE2 /* VideoPlayerKit.podspec in Resources */,
+				C4090B4317CC5B72005A7CE2 /* playerPage.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,6 +328,12 @@
 				C4090AEA17CC5919005A7CE2 /* main.m in Sources */,
 				C4090AEE17CC5919005A7CE2 /* AppDelegate.m in Sources */,
 				C4090AF717CC5919005A7CE2 /* ViewController.m in Sources */,
+				C4090B3017CC5962005A7CE2 /* AirplayActiveView.m in Sources */,
+				C4090B3117CC5962005A7CE2 /* FullScreenView.m in Sources */,
+				C4090B3217CC5962005A7CE2 /* FullScreenViewController.m in Sources */,
+				C4090B3317CC5962005A7CE2 /* VideoPlayerKit.m in Sources */,
+				C4090B3417CC5962005A7CE2 /* VideoPlayerView.m in Sources */,
+				C4090B4217CC5B72005A7CE2 /* playerPage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,7 +378,8 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Wei Lei (YKD874T2KW)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Wei Lei (YKD874T2KW)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -239,6 +394,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "9D599405-9B5A-4F8C-B2CD-268DBDDAF7AB";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "9D599405-9B5A-4F8C-B2CD-268DBDDAF7AB";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -255,7 +412,8 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Wei Lei (YKD874T2KW)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Wei Lei (YKD874T2KW)";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
@@ -263,6 +421,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "9D599405-9B5A-4F8C-B2CD-268DBDDAF7AB";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "9D599405-9B5A-4F8C-B2CD-268DBDDAF7AB";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -276,6 +436,7 @@
 				GCC_PREFIX_HEADER = "AVPlayerDemo/AVPlayerDemo-Prefix.pch";
 				INFOPLIST_FILE = "AVPlayerDemo/AVPlayerDemo-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -287,6 +448,7 @@
 				GCC_PREFIX_HEADER = "AVPlayerDemo/AVPlayerDemo-Prefix.pch";
 				INFOPLIST_FILE = "AVPlayerDemo/AVPlayerDemo-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
